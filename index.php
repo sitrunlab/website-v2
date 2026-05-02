@@ -1318,6 +1318,16 @@
                         </span>
                     </div>
 
+                    <div class="client-card">
+                        <div class="client-logo" aria-hidden="true">
+                            <img src="https://apps.codepolitan.com/sites/learn/uploads/original/2/logo-codepolitan.png" alt="CodePolitan" />
+                        </div>
+                        <span class="client-content">
+                            <strong>CodePolitan</strong>
+                            <span>Delivered Build PHP Standard Projects training.</span>
+                        </span>
+                    </div>
+
                 </div>
             </div>
         </section>
