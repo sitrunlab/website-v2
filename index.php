@@ -1253,7 +1253,7 @@
                             </g>
                             <g transform="translate(552 168)">
                                 <rect width="120" height="74" rx="22" fill="rgba(255,255,255,.08)" stroke="rgba(123,225,239,.34)" stroke-width="2" />
-                                <text x="60" y="45" text-anchor="middle" font-family="Inter, sans-serif" font-weight="900" font-size="16" fill="#e9fbff">TRAINING</text>
+                                <text x="60" y="45" text-anchor="middle" font-family="Inter, sans-serif" font-weight="900" font-size="18" fill="#ffffff">TRAINING</text>
                             </g>
 
                             <path d="M168 205 C186 205 176 236 190 236" fill="none" stroke="#24d6ee" stroke-width="2" opacity=".55" />
