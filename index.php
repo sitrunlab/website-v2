@@ -522,6 +522,11 @@
         }
 
         .about-card {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            min-height: clamp(220px, 22vw, 280px);
+            margin-top: clamp(34px, 3.8vw, 50px);
             border-radius: var(--radius-xl);
             padding: 32px;
             background:
@@ -906,6 +911,10 @@
 
             .about-layout {
                 grid-template-columns: 1fr;
+            }
+
+            .about-card {
+                margin-top: 0;
             }
 
             .trusted-head {
