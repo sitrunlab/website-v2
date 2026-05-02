@@ -341,6 +341,20 @@
             backdrop-filter: blur(10px);
         }
 
+        .abstract-stage {
+            position: absolute;
+            inset: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .visual-svg {
+            display: block;
+            width: 100%;
+            height: 100%;
+        }
+
         .hero-visual::before {
             content: "";
             position: absolute;
@@ -760,10 +774,6 @@
                 min-height: 320px;
             }
 
-            .hero-visual {
-                min-height: 340px;
-            }
-
             .visual-logo-wrap {
                 inset: 58px 46px 72px 46px;
             }
@@ -889,7 +899,28 @@
             }
 
             .hero {
-                padding: 72px 0 64px;
+                padding: 64px 0 48px;
+            }
+
+            .hero-inner {
+                gap: 30px;
+            }
+
+            .hero-visual {
+                min-height: 0;
+                height: clamp(235px, 60vw, 300px);
+                border-radius: 22px;
+            }
+
+            .hero-visual::after {
+                width: 260px;
+                height: 260px;
+                top: 45%;
+            }
+
+            .visual-svg {
+                transform: translateY(0) scale(1.035);
+                transform-origin: center center;
             }
 
             .hero h1 {
@@ -923,6 +954,16 @@
 
             .visual-logo-wrap {
                 inset: 66px 36px 78px 36px;
+            }
+        }
+
+        @media (max-width: 420px) {
+            .hero-visual {
+                height: clamp(225px, 58vw, 245px);
+            }
+
+            .visual-svg {
+                transform: translateY(0) scale(1.065);
             }
         }
     </style>
