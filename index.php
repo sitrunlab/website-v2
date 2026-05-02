@@ -1301,7 +1301,7 @@
 
                     <div class="client-card" role="listitem">
                         <div class="client-logo" aria-hidden="true">
-                            <img src="https://avatars.githubusercontent.com/u/3469997?s=400&u=0d7c826be97c7725a28986e4d55da2f86e85763c&v=4" alt="Eye4web">
+                            <img src="/clients/eye4web.png" alt="Eye4web">
                         </div>
                         <span class="client-content">
                             <strong>Eye4web</strong>
@@ -1311,7 +1311,7 @@
 
                     <div class="client-card" role="listitem">
                         <div class="client-logo" aria-hidden="true">
-                            <img src="https://upload.wikimedia.org/wikipedia/id/b/ba/Logo_Unissula.png" alt="Unissula">
+                            <img src="/clients/unissula.png" alt="Unissula">
                         </div>
                         <span class="client-content">
                             <strong>Unissula</strong>
@@ -1321,7 +1321,7 @@
 
                     <div class="client-card" role="listitem">
                         <div class="client-logo" aria-hidden="true">
-                            <img src="https://izi.or.id/wp-content/uploads/2022/03/logo.png" alt="IZI">
+                            <img src="/clients/izi.png" alt="IZI">
                         </div>
                         <span class="client-content">
                             <strong>IZI</strong>
@@ -1331,7 +1331,7 @@
 
                     <div class="client-card" role="listitem">
                         <div class="client-logo" aria-hidden="true">
-                            <img src="https://apps.codepolitan.com/sites/learn/uploads/original/2/logo-codepolitan.png" alt="CodePolitan">
+                            <img src="/clients/codepolitan.png" alt="CodePolitan">
                         </div>
                         <span class="client-content">
                             <strong>CodePolitan</strong>
@@ -1341,7 +1341,7 @@
 
                     <div class="client-card" role="listitem">
                         <div class="client-logo" aria-hidden="true">
-                            <img src="https://bmhs.co.id/wp-content/uploads/2023/06/svgexport-1.svg" alt="Bundamedik Healthcare">
+                            <img src="/clients/bundamedik-healthcare.svg" alt="Bundamedik Healthcare">
                         </div>
                         <span class="client-content">
                             <strong>Bundamedik Healthcare</strong>
@@ -1351,7 +1351,7 @@
 
                     <div class="client-card" role="listitem">
                         <div class="client-logo" aria-hidden="true">
-                            <img src="https://images.squarespace-cdn.com/content/v1/5eb9d4744ba2255fc4cd76de/1589298163875-8RQXGM2FQYIJG4OX6TYP/logo.png" alt="KēlaHealth">
+                            <img src="/clients/kelahealth.webp" alt="KēlaHealth">
                         </div>
                         <span class="client-content">
                             <strong>KēlaHealth</strong>
