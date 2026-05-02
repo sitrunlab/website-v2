@@ -10,12 +10,12 @@
 
     <meta property="og:title" content="SitrunTech — PHP Web Development & Training">
     <meta property="og:description" content="Professional PHP web application development and practical training for Laminas, CodeIgniter 4, Mezzio, testing, architecture, and Vue.js SPA development.">
-    <meta property="og:image" content="https://sitrun-tech.com/og-image-v2.png">
+    <meta property="og:image" content="https://sitrun-tech.com/og-image-v3.webp">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
 
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:image" content="https://sitrun-tech.com/og-image-v2.png">
+    <meta name="twitter:image" content="https://sitrun-tech.com/og-image-v3.webp">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
