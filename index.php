@@ -1272,15 +1272,15 @@
                     <div class="about-copy">
                         <p>SitrunTech provides professional web application development and technical training services with a strong focus on maintainable PHP applications.</p>
                         <p>The work covers custom PHP applications, Zend Framework / Laminas, CodeIgniter 4, and Mezzio, supported by object-oriented programming, automated testing, and clear project structure.</p>
-                        <div class="expertise-chips" aria-label="SitrunTech expertise">
-                            <span>PHP</span>
-                            <span>Laminas</span>
-                            <span>CodeIgniter 4</span>
-                            <span>Mezzio</span>
-                            <span>Testing</span>
-                            <span>OOP</span>
-                            <span>DDD</span>
-                            <span>Vue.js SPA</span>
+                        <div class="expertise-chips" role="list" aria-label="SitrunTech expertise">
+                            <span role="listitem">PHP</span>
+                            <span role="listitem">Laminas</span>
+                            <span role="listitem">CodeIgniter 4</span>
+                            <span role="listitem">Mezzio</span>
+                            <span role="listitem">Testing</span>
+                            <span role="listitem">OOP</span>
+                            <span role="listitem">DDD</span>
+                            <span role="listitem">Vue.js SPA</span>
                         </div>
                     </div>
                 </div>
@@ -1297,11 +1297,11 @@
                     </div>
                 </div>
 
-                <div class="client-grid" aria-label="Client list">
+                <div class="client-grid" role="list" aria-label="Client list">
 
-                    <div class="client-card">
+                    <div class="client-card" role="listitem">
                         <div class="client-logo" aria-hidden="true">
-                            <img src="https://avatars.githubusercontent.com/u/3469997?s=400&u=0d7c826be97c7725a28986e4d55da2f86e85763c&v=4" alt="Eye4web" />
+                            <img src="https://avatars.githubusercontent.com/u/3469997?s=400&u=0d7c826be97c7725a28986e4d55da2f86e85763c&v=4" alt="Eye4web">
                         </div>
                         <span class="client-content">
                             <strong>Eye4web</strong>
@@ -1309,9 +1309,9 @@
                         </span>
                     </div>
 
-                    <div class="client-card">
+                    <div class="client-card" role="listitem">
                         <div class="client-logo" aria-hidden="true">
-                            <img src="https://upload.wikimedia.org/wikipedia/id/b/ba/Logo_Unissula.png" alt="Unissula" />
+                            <img src="https://upload.wikimedia.org/wikipedia/id/b/ba/Logo_Unissula.png" alt="Unissula">
                         </div>
                         <span class="client-content">
                             <strong>Unissula</strong>
@@ -1319,9 +1319,9 @@
                         </span>
                     </div>
 
-                    <div class="client-card">
+                    <div class="client-card" role="listitem">
                         <div class="client-logo" aria-hidden="true">
-                            <img src="https://izi.or.id/wp-content/uploads/2022/03/logo.png" alt="IZI" />
+                            <img src="https://izi.or.id/wp-content/uploads/2022/03/logo.png" alt="IZI">
                         </div>
                         <span class="client-content">
                             <strong>IZI</strong>
@@ -1329,9 +1329,9 @@
                         </span>
                     </div>
 
-                    <div class="client-card">
+                    <div class="client-card" role="listitem">
                         <div class="client-logo" aria-hidden="true">
-                            <img src="https://apps.codepolitan.com/sites/learn/uploads/original/2/logo-codepolitan.png" alt="CodePolitan" />
+                            <img src="https://apps.codepolitan.com/sites/learn/uploads/original/2/logo-codepolitan.png" alt="CodePolitan">
                         </div>
                         <span class="client-content">
                             <strong>CodePolitan</strong>
@@ -1339,9 +1339,9 @@
                         </span>
                     </div>
 
-                    <div class="client-card">
+                    <div class="client-card" role="listitem">
                         <div class="client-logo" aria-hidden="true">
-                            <img src="https://bmhs.co.id/wp-content/uploads/2023/06/svgexport-1.svg" alt="Bundamedik Healthcare" />
+                            <img src="https://bmhs.co.id/wp-content/uploads/2023/06/svgexport-1.svg" alt="Bundamedik Healthcare">
                         </div>
                         <span class="client-content">
                             <strong>Bundamedik Healthcare</strong>
@@ -1349,9 +1349,9 @@
                         </span>
                     </div>
 
-                    <div class="client-card">
+                    <div class="client-card" role="listitem">
                         <div class="client-logo" aria-hidden="true">
-                            <img src="https://images.squarespace-cdn.com/content/v1/5eb9d4744ba2255fc4cd76de/1589298163875-8RQXGM2FQYIJG4OX6TYP/logo.png" alt="KēlaHealth" />
+                            <img src="https://images.squarespace-cdn.com/content/v1/5eb9d4744ba2255fc4cd76de/1589298163875-8RQXGM2FQYIJG4OX6TYP/logo.png" alt="KēlaHealth">
                         </div>
                         <span class="client-content">
                             <strong>KēlaHealth</strong>
