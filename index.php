@@ -1377,7 +1377,6 @@
                 <div class="section-head">
                     <div class="section-kicker">Services</div>
                     <h2>Choose development help or practical training.</h2>
-                    <p>Two direct paths make it clear whether the visitor needs application delivery support or a learning session.</p>
                 </div>
 
                 <div class="path-grid">
