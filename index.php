@@ -819,6 +819,17 @@
             border-color: transparent;
         }
 
+        #web-development .path-link {
+            color: var(--navy-950);
+            background: var(--gold-500);
+            box-shadow: 0 14px 34px rgba(214, 178, 58, .22);
+        }
+
+        #web-development .path-link:hover {
+            color: var(--navy-950);
+            background: var(--gold-600);
+        }
+
         .contact {
             color: #fff;
             background:
@@ -1217,31 +1228,31 @@
 
                             <g filter="url(#softShadow)">
                                 <rect x="168" y="176" width="384" height="216" rx="28" fill="rgba(6,21,46,.68)" stroke="rgba(123,225,239,.42)" stroke-width="2" />
-                                <rect x="198" y="210" width="118" height="13" rx="7" fill="url(#gGold)" />
+                                <rect x="270" y="210" width="118" height="13" rx="7" fill="url(#gGold)" />
                                 <rect x="198" y="246" width="268" height="10" rx="5" fill="#65c7d9" opacity=".94" />
                                 <rect x="198" y="275" width="312" height="10" rx="5" fill="#58aec4" opacity=".86" />
                                 <rect x="198" y="304" width="208" height="10" rx="5" fill="#65c7d9" opacity=".78" />
                                 <rect x="198" y="333" width="246" height="10" rx="5" fill="#b4c4d0" opacity=".64" />
                                 <rect x="198" y="362" width="168" height="10" rx="5" fill="#65c7d9" opacity=".74" />
-                                <rect x="466" y="208" width="58" height="48" rx="14" fill="url(#gCyan)" opacity=".92" />
-                                <path d="M487 223 L477 232 L487 241 M506 223 L516 232 L506 241" fill="none" stroke="#e9fbff" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+                                <rect x="198" y="186" width="58" height="48" rx="14" fill="url(#gCyan)" opacity=".92" />
+                                <path d="M219 201 L209 210 L219 219 M238 201 L248 210 L238 219" fill="none" stroke="#e9fbff" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
                             </g>
 
                             <g transform="translate(66 168)">
                                 <rect width="104" height="74" rx="22" fill="rgba(255,255,255,.08)" stroke="rgba(123,225,239,.34)" stroke-width="2" />
                                 <text x="52" y="45" text-anchor="middle" font-family="Inter, sans-serif" font-weight="900" font-size="24" fill="#26d2e8">DEV</text>
                             </g>
-                            <g transform="translate(540 168)">
-                                <rect width="132" height="74" rx="22" fill="rgba(255,255,255,.08)" stroke="rgba(123,225,239,.34)" stroke-width="2" />
-                                <text x="66" y="45" text-anchor="middle" font-family="Inter, sans-serif" font-weight="900" font-size="17" fill="#e9fbff">TRAINING</text>
+                            <g transform="translate(552 168)">
+                                <rect width="120" height="74" rx="22" fill="rgba(255,255,255,.08)" stroke="rgba(123,225,239,.34)" stroke-width="2" />
+                                <text x="60" y="45" text-anchor="middle" font-family="Inter, sans-serif" font-weight="900" font-size="16" fill="#e9fbff">TRAINING</text>
                             </g>
 
-                            <path d="M170 205 C190 205 188 224 198 224" fill="none" stroke="#24d6ee" stroke-width="2" opacity=".55" />
-                            <path d="M524 224 C540 224 540 205 540 205" fill="none" stroke="#24d6ee" stroke-width="2" opacity=".50" />
+                            <path d="M170 205 C186 205 176 236 190 236" fill="none" stroke="#24d6ee" stroke-width="2" opacity=".55" />
+                            <path d="M522 275 C544 268 532 205 552 205" fill="none" stroke="#24d6ee" stroke-width="2" opacity=".50" />
                             <path d="M246 420 C306 458 416 458 484 420" fill="none" stroke="#24d6ee" stroke-width="2" opacity=".22" />
 
-                            <circle cx="198" cy="224" r="8" fill="url(#gCyan)" />
-                            <circle cx="524" cy="224" r="7" fill="url(#gGold)" />
+                            <circle cx="190" cy="236" r="8" fill="url(#gGold)" />
+                            <circle cx="522" cy="275" r="7" fill="url(#gCyan)" />
                         </svg>
                     </div>
                 </div>
