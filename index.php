@@ -8,11 +8,19 @@
     <meta name="description" content="SitrunTech provides professional PHP web development and practical PHP training covering Laminas, CodeIgniter 4, Mezzio, testing, architecture, and Vue.js SPA development.">
     <link rel="icon" type="image/x-icon" href="favicon.ico">
 
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://sitrun-tech.com/">
+    <meta property="og:site_name" content="SitrunTech">
+
     <meta property="og:title" content="SitrunTech — PHP Web Development & Training">
     <meta property="og:description" content="Professional PHP web application development and practical training for Laminas, CodeIgniter 4, Mezzio, testing, architecture, and Vue.js SPA development.">
+
     <meta property="og:image" content="https://sitrun-tech.com/og-image-v3.webp">
+    <meta property="og:image:secure_url" content="https://sitrun-tech.com/og-image-v3.webp">
+    <meta property="og:image:type" content="image/webp">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="SitrunTech — PHP Web Development and Training">
 
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:image" content="https://sitrun-tech.com/og-image-v3.webp">
