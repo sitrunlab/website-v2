@@ -20,6 +20,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet">
+
     <style>
         :root {
             --navy-950: #06152e;
@@ -622,12 +623,16 @@
             position: relative;
             z-index: 1;
             display: grid;
-            grid-template-columns: 76px minmax(0, 1fr) minmax(230px, .32fr);
-            gap: 26px;
-            align-items: center;
+            grid-template-columns: 76px minmax(0, 1fr);
+            grid-template-areas:
+                "icon main"
+                "icon action";
+            gap: 18px 26px;
+            align-items: start;
         }
 
         .path-icon {
+            grid-area: icon;
             width: 62px;
             height: 62px;
             display: grid;
@@ -636,6 +641,11 @@
             background: var(--navy-900);
             color: var(--cyan-300);
             box-shadow: 0 16px 34px rgba(8, 32, 74, .18);
+            margin-top: 8px;
+        }
+
+        .path-main {
+            grid-area: main;
         }
 
         .training-path .path-icon {
@@ -689,29 +699,34 @@
         }
 
         .path-action {
+            grid-area: action;
             display: flex;
-            justify-content: flex-end;
+            justify-content: flex-start;
+            margin-top: 4px;
         }
 
         .path-link {
             display: inline-flex;
             align-items: center;
             justify-content: center;
-            min-height: 46px;
-            padding: 12px 18px;
+            min-height: 48px;
+            padding: 13px 20px;
             border-radius: 999px;
-            color: var(--navy-950);
-            background: #fff;
-            border: 1px solid var(--line);
+            color: #fff;
+            background: var(--navy-900);
+            border: 1px solid transparent;
             font-weight: 900;
             text-decoration: none;
-            box-shadow: 0 10px 30px rgba(6, 21, 46, .06);
+            box-shadow: 0 14px 34px rgba(8, 32, 74, .16);
             white-space: nowrap;
+            text-align: center;
+            line-height: 1.25;
         }
 
         .path-link:hover {
-            color: var(--cyan-600);
-            border-color: rgba(16, 183, 211, .34);
+            color: #fff;
+            background: var(--navy-800);
+            border-color: transparent;
         }
 
         .contact {
@@ -794,7 +809,15 @@
 
             .path-card-inner {
                 grid-template-columns: 1fr;
+                grid-template-areas:
+                    "icon"
+                    "main"
+                    "action";
                 align-items: start;
+            }
+
+            .path-icon {
+                margin-top: 0;
             }
 
             .path-action {
@@ -941,9 +964,20 @@
                 padding: 26px;
             }
 
+            .path-action {
+                width: 100%;
+                justify-content: stretch;
+            }
+
             .path-link {
                 width: 100%;
+                max-width: 100%;
+                min-height: 58px;
+                padding: 14px 24px;
                 white-space: normal;
+                text-align: center;
+                line-height: 1.25;
+                text-wrap: balance;
             }
 
             .label-chip {
@@ -965,6 +999,11 @@
             .visual-svg {
                 transform: translateY(0) scale(1.065);
             }
+
+            .path-link {
+                padding-inline: 28px;
+                font-size: .95rem;
+            }
         }
     </style>
 </head>
@@ -975,11 +1014,13 @@
             <a href="#home" class="brand" aria-label="SitrunTech home">
                 <img src="sitrun-logo-header-clean.png" alt="Sitrun Technologies">
             </a>
+
             <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="primary-navigation">
                 <span></span>
                 <span></span>
                 <span></span>
             </button>
+
             <nav class="nav" id="primary-navigation" aria-label="Primary navigation">
                 <a href="#web-development">Web Development</a>
                 <a href="#training">Training</a>
@@ -1001,6 +1042,7 @@
                         <a class="button button-training" href="#training">Training Programs</a>
                     </div>
                 </div>
+
                 <div class="hero-visual" aria-hidden="true">
                     <div class="abstract-stage">
                         <svg class="visual-svg" viewBox="0 0 720 560" role="img" aria-label="Abstract web development and training illustration">
@@ -1084,6 +1126,7 @@
                     <strong>PHP</strong>
                     <p>Focused development and training for the PHP ecosystem, not generic web work.</p>
                 </div>
+
                 <div>
                     <div class="section-kicker">About SitrunTech</div>
                     <h2>Practical engineering help for PHP projects.</h2>
@@ -1121,6 +1164,7 @@
                                     <path d="M8 9l-4 3 4 3M16 9l4 3-4 3M14 5l-4 14" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                                 </svg>
                             </div>
+
                             <div class="path-main">
                                 <h3>Web Development</h3>
                                 <p>Professional PHP web application development for reliable, maintainable, and framework-based solutions.</p>
@@ -1131,6 +1175,7 @@
                                     <li>SPA development with Vue.js when needed</li>
                                 </ul>
                             </div>
+
                             <div class="path-action">
                                 <a class="path-link" href="mailto:samsonasik@gmail.com?subject=Web%20Development%20Inquiry">Discuss web development →</a>
                             </div>
@@ -1144,6 +1189,7 @@
                                     <path d="M4 6h16M4 10h16M6 14h7M6 18h5M17 14l3 2-3 2v-4z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                                 </svg>
                             </div>
+
                             <div class="path-main">
                                 <h3>Training</h3>
                                 <p>Hands-on training for individuals or teams who want stronger PHP fundamentals, cleaner structure, and better engineering habits.</p>
@@ -1154,6 +1200,7 @@
                                     <li>Onsite or online sessions</li>
                                 </ul>
                             </div>
+
                             <div class="path-action">
                                 <a class="path-link" href="mailto:samsonasik@gmail.com?subject=Training%20Inquiry">Plan a training session →</a>
                             </div>
