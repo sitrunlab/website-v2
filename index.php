@@ -1215,8 +1215,8 @@
                                 </pattern>
                             </defs>
 
-                            <rect x="44" y="42" width="632" height="476" rx="48" fill="rgba(255,255,255,.055)" stroke="rgba(123,225,239,.22)" stroke-width="2" />
-                            <rect x="44" y="42" width="632" height="476" rx="48" fill="url(#grid)" opacity=".9" />
+                            <rect x="35" y="42" width="650" height="476" rx="48" fill="rgba(255,255,255,.055)" stroke="rgba(123,225,239,.22)" stroke-width="2" />
+                            <rect x="35" y="42" width="650" height="476" rx="48" fill="url(#grid)" opacity=".9" />
                             <path d="M76 386 C156 236 274 164 398 180 C506 194 584 278 632 416" fill="none" stroke="rgba(123,225,239,.16)" stroke-width="2" />
                             <path d="M118 430 C252 478 426 470 604 408" fill="none" stroke="rgba(123,225,239,.10)" stroke-width="2" />
 
@@ -1247,16 +1247,16 @@
                                 <path d="M219 201 L209 210 L219 219 M238 201 L248 210 L238 219" fill="none" stroke="#e9fbff" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
                             </g>
 
-                            <g transform="translate(66 168)">
-                                <rect width="104" height="74" rx="22" fill="rgba(255,255,255,.08)" stroke="rgba(123,225,239,.34)" stroke-width="2" />
-                                <text x="52" y="45" text-anchor="middle" font-family="Inter, sans-serif" font-weight="900" font-size="24" fill="#26d2e8">DEV</text>
+                            <g transform="translate(48 168)">
+                                <rect width="120" height="74" rx="22" fill="rgba(255,255,255,.08)" stroke="rgba(123,225,239,.34)" stroke-width="2" />
+                                <text x="60" y="45" text-anchor="middle" font-family="Inter, sans-serif" font-weight="900" font-size="24" fill="#26d2e8">DEV</text>
                             </g>
                             <g transform="translate(552 168)">
                                 <rect width="120" height="74" rx="22" fill="rgba(255,255,255,.08)" stroke="rgba(123,225,239,.34)" stroke-width="2" />
                                 <text x="60" y="45" text-anchor="middle" font-family="Inter, sans-serif" font-weight="900" font-size="16" fill="#e9fbff">TRAINING</text>
                             </g>
 
-                            <path d="M170 205 C186 205 176 236 190 236" fill="none" stroke="#24d6ee" stroke-width="2" opacity=".55" />
+                            <path d="M168 205 C186 205 176 236 190 236" fill="none" stroke="#24d6ee" stroke-width="2" opacity=".55" />
                             <path d="M522 275 C544 268 532 205 552 205" fill="none" stroke="#24d6ee" stroke-width="2" opacity=".50" />
                             <path d="M246 420 C306 458 416 458 484 420" fill="none" stroke="#24d6ee" stroke-width="2" opacity=".22" />
 
