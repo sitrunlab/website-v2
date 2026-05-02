@@ -27,6 +27,7 @@
             --navy-900: #08204a;
             --navy-800: #0a356b;
             --cyan-600: #009fc2;
+            --cyan-700: #00768f;
             --cyan-500: #10b7d3;
             --cyan-300: #7be1ef;
             --gold-500: #d6b23a;
@@ -178,7 +179,7 @@
             display: inline-flex;
             align-items: center;
             gap: 10px;
-            color: var(--cyan-600);
+            color: var(--cyan-700);
             text-transform: uppercase;
             letter-spacing: .12em;
             font-size: .78rem;
