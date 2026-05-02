@@ -580,6 +580,96 @@
             border-color: rgba(214, 178, 58, .32);
         }
 
+        .trusted {
+            background: #f5f9fc;
+            padding: 72px 0;
+        }
+
+        .trusted-head {
+            display: flex;
+            justify-content: space-between;
+            gap: 32px;
+            align-items: end;
+            margin-bottom: 30px;
+        }
+
+        .trusted-head .section-head {
+            margin-bottom: 0;
+        }
+
+        .trust-note {
+            max-width: 300px;
+            color: #52657c;
+            font-size: .96rem;
+            font-weight: 650;
+        }
+
+        .client-grid {
+            display: grid;
+            grid-template-columns: repeat(3, minmax(0, 1fr));
+            gap: 16px;
+        }
+
+        .client-card {
+            min-height: 132px;
+            display: grid;
+            grid-template-columns: 118px minmax(0, 1fr);
+            align-items: start;
+            gap: 18px;
+            padding: 24px;
+            border: 1px solid rgba(219, 231, 239, .95);
+            border-radius: var(--radius-lg);
+            background: #fff;
+            box-shadow: 0 18px 44px rgba(6, 21, 46, .07);
+        }
+
+        .client-logo {
+            width: 118px;
+            height: 88px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: transparent;
+        }
+
+        .client-logo img {
+            width: auto;
+            max-width: 88px;
+            max-height: 88px;
+            object-fit: contain;
+        }
+
+        .dummy-logo {
+            width: 92px;
+            height: auto;
+        }
+
+        .dummy-logo text {
+            font-family: 'Plus Jakarta Sans', 'Inter', sans-serif;
+            font-weight: 800;
+            letter-spacing: 0;
+        }
+
+        .client-content {
+            display: block;
+            padding-top: 2px;
+        }
+
+        .client-content strong {
+            display: block;
+            color: var(--navy-950);
+            font-size: 1.02rem;
+            line-height: 1.25;
+            margin-bottom: 3px;
+        }
+
+        .client-content span {
+            color: var(--muted);
+            font-size: .92rem;
+            font-weight: 650;
+            line-height: 1.35;
+        }
+
         .split-services {
             background: #fff;
         }
@@ -807,6 +897,19 @@
                 grid-template-columns: 1fr;
             }
 
+            .trusted-head {
+                display: block;
+            }
+
+            .trust-note {
+                max-width: 620px;
+                margin-top: 14px;
+            }
+
+            .client-grid {
+                grid-template-columns: repeat(2, minmax(0, 1fr));
+            }
+
             .path-card-inner {
                 grid-template-columns: 1fr;
                 grid-template-areas:
@@ -964,6 +1067,30 @@
                 padding: 26px;
             }
 
+            .client-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .client-card {
+                grid-template-columns: 96px minmax(0, 1fr);
+                min-height: 96px;
+                padding: 20px;
+            }
+
+            .client-logo {
+                width: 96px;
+                height: 74px;
+            }
+
+            .client-logo img {
+                max-width: 74px;
+                max-height: 74px;
+            }
+
+            .dummy-logo {
+                width: 76px;
+            }
+
             .path-action {
                 width: 100%;
                 justify-content: stretch;
@@ -1025,6 +1152,7 @@
                 <a href="#web-development">Web Development</a>
                 <a href="#training">Training</a>
                 <a href="#about">About</a>
+                <a href="#trusted">Clients</a>
                 <a class="nav-cta" href="mailto:samsonasik@gmail.com">Contact</a>
             </nav>
         </div>
@@ -1129,7 +1257,7 @@
 
                 <div>
                     <div class="section-kicker">About SitrunTech</div>
-                    <h2>Practical engineering help for PHP projects.</h2>
+                    <h2>Practical engineering help for PHP projects</h2>
                     <div class="about-copy">
                         <p>SitrunTech provides professional web application development and technical training services with a strong focus on maintainable PHP applications.</p>
                         <p>The work covers custom PHP applications, Zend Framework / Laminas, CodeIgniter 4, and Mezzio, supported by object-oriented programming, automated testing, and clear project structure.</p>
@@ -1144,6 +1272,52 @@
                             <span>Vue.js SPA</span>
                         </div>
                     </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="trusted" id="trusted">
+            <div class="container">
+                <div class="trusted-head">
+                    <div class="section-head">
+                        <div class="section-kicker">Trusted by Clients</div>
+                        <h2>Clients trust SitrunTech for practical PHP work.</h2>
+                        <p>From product teams to training partners, clients work with SitrunTech for reliable implementation support, focused framework guidance, and hands-on knowledge sharing.</p>
+                    </div>
+                </div>
+
+                <div class="client-grid" aria-label="Client list">
+
+                    <div class="client-card">
+                        <div class="client-logo" aria-hidden="true">
+                            <img src="https://avatars.githubusercontent.com/u/3469997?s=400&u=0d7c826be97c7725a28986e4d55da2f86e85763c&v=4" alt="Eye4web" />
+                        </div>
+                        <span class="client-content">
+                            <strong>Eye4web</strong>
+                            <span>Built a custom Zend Framework module for PotterWorld and added unit tests.</span>
+                        </span>
+                    </div>
+
+                    <div class="client-card">
+                        <div class="client-logo" aria-hidden="true">
+                            <img src="https://upload.wikimedia.org/wikipedia/id/b/ba/Logo_Unissula.png" alt="Unissula" />
+                        </div>
+                        <span class="client-content">
+                            <strong>Unissula</strong>
+                            <span>Delivered offline Zend Framework training sessions.</span>
+                        </span>
+                    </div>
+
+                    <div class="client-card">
+                        <div class="client-logo" aria-hidden="true">
+                            <img src="https://izi.or.id/wp-content/uploads/2022/03/logo.png" alt="IZI" />
+                        </div>
+                        <span class="client-content">
+                            <strong>IZI</strong>
+                            <span>Delivered PHP OOP and unit testing training.</span>
+                        </span>
+                    </div>
+
                 </div>
             </div>
         </section>
