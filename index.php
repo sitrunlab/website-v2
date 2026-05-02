@@ -1328,6 +1328,16 @@
                         </span>
                     </div>
 
+                    <div class="client-card">
+                        <div class="client-logo" aria-hidden="true">
+                            <img src="https://bmhs.co.id/wp-content/uploads/2023/06/svgexport-1.svg" alt="Bundamedik Healthcare" />
+                        </div>
+                        <span class="client-content">
+                            <strong>Bundamedik Healthcare</strong>
+                            <span>Redefined Hospital Information System.</span>
+                        </span>
+                    </div>
+
                 </div>
             </div>
         </section>
