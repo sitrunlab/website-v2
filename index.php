@@ -1338,6 +1338,16 @@
                         </span>
                     </div>
 
+                    <div class="client-card">
+                        <div class="client-logo" aria-hidden="true">
+                            <img src="https://images.squarespace-cdn.com/content/v1/5eb9d4744ba2255fc4cd76de/1589298163875-8RQXGM2FQYIJG4OX6TYP/logo.png" alt="KēlaHealth" />
+                        </div>
+                        <span class="client-content">
+                            <strong>KēlaHealth</strong>
+                            <span>Migrated a legacy FHIR API from Expressive to Mezzio with QA improvements.</span>
+                        </span>
+                    </div>
+
                 </div>
             </div>
         </section>
