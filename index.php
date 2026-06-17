@@ -632,6 +632,86 @@
             box-shadow: 0 18px 44px rgba(6, 21, 46, .07);
         }
 
+        .org-card {
+            grid-column: 1 / -1;
+        }
+
+        .org-card-link {
+            display: contents;
+            color: inherit;
+            text-decoration: none;
+        }
+
+        .org-card-link:hover .client-content strong,
+        .org-card-link:focus-visible .client-content strong {
+            text-decoration: underline;
+        }
+
+        .org-products {
+            grid-column: 1 / -1;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 14px;
+            margin-top: 6px;
+            padding-top: 18px;
+            border-top: 1px solid rgba(219, 231, 239, .95);
+        }
+
+        .org-product {
+            flex: 1 1 260px;
+            display: flex;
+            align-items: flex-start;
+            gap: 14px;
+            padding: 16px 18px;
+            border-radius: 14px;
+            border: 1px solid var(--line);
+            background: #f8fbfd;
+            color: inherit;
+            text-decoration: none;
+            transition: border-color .2s ease, background .2s ease, transform .2s ease;
+        }
+
+        .org-product:hover,
+        .org-product:focus-visible {
+            border-color: rgba(16, 183, 211, .4);
+            background: #fff;
+            transform: translateY(-2px);
+        }
+
+        .org-product-icon {
+            width: 38px;
+            height: 38px;
+            flex-shrink: 0;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: rgba(16, 183, 211, .12);
+            color: var(--navy-950);
+            overflow: hidden;
+        }
+
+        .org-product-icon img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+
+        .org-product-body strong {
+            display: block;
+            color: var(--navy-950);
+            font-size: .98rem;
+            margin-bottom: 4px;
+        }
+
+        .org-product-body span {
+            display: block;
+            color: var(--muted);
+            font-size: .86rem;
+            font-weight: 650;
+            line-height: 1.4;
+        }
+
         .client-logo {
             width: 118px;
             height: 88px;
@@ -1177,6 +1257,7 @@
                 <a href="#training">Training</a>
                 <a href="#about">About</a>
                 <a href="#trusted">Clients</a>
+                <a href="#open-source">Open Source</a>
                 <a class="nav-cta" href="mailto:samsonasik@gmail.com">Contact</a>
             </nav>
         </div>
@@ -1370,6 +1451,55 @@
                             <strong>KēlaHealth</strong>
                             <span>Migrated a legacy FHIR API from Expressive to Mezzio with QA improvements.</span>
                         </span>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="trusted" id="open-source">
+            <div class="container">
+                <div class="trusted-head">
+                    <div class="section-head">
+                        <div class="section-kicker">Open Source</div>
+                        <h2>Open source tools, built from real PHP engineering work.</h2>
+                        <p>SitrunTech backs open source organization that turn day-to-day PHP engineering practice into reusable tools.</p>
+                    </div>
+                </div>
+
+                <div class="client-grid" role="list" aria-label="Open source organizations">
+
+                    <div class="client-card org-card" role="listitem">
+                        <a class="org-card-link" href="https://github.com/boundwize/" target="_blank" rel="noopener">
+                            <div class="client-logo" aria-hidden="true">
+                                <img src="/opensource-logos/boundwize-thumbnail.png" alt="Boundwize">
+                            </div>
+                            <span class="client-content">
+                                <strong>Boundwize</strong>
+                                <span>Awesome code, shaped by wisdom &mdash; PHP developer tools for clearer, calmer codebases.</span>
+                            </span>
+                        </a>
+
+                        <div class="org-products" role="list" aria-label="Boundwize products">
+                            <a class="org-product" role="listitem" href="https://github.com/boundwize/structarmed" target="_blank" rel="noopener">
+                                <span class="org-product-icon" aria-hidden="true">
+                                    <img src="/opensource-logos/structarmed-final.webp" alt="">
+                                </span>
+                                <span class="org-product-body">
+                                    <strong>StructArmed</strong>
+                                    <span>Define PHP architecture layers and rules, enforce them in CI, and get readable violation messages.</span>
+                                </span>
+                            </a>
+                            <a class="org-product" role="listitem" href="https://github.com/boundwize/pyrameter" target="_blank" rel="noopener">
+                                <span class="org-product-icon" aria-hidden="true">
+                                    <img src="/opensource-logos/pyrameter_logo.png" alt="">
+                                </span>
+                                <span class="org-product-body">
+                                    <strong>Pyrameter</strong>
+                                    <span>PHPUnit extension that classifies tests and flags drift from your intended test pyramid.</span>
+                                </span>
+                            </a>
+                        </div>
                     </div>
 
                 </div>
