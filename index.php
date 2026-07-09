@@ -1499,6 +1499,15 @@
                                     <span>PHPUnit extension that classifies tests and flags drift from your intended test pyramid.</span>
                                 </span>
                             </a>
+                            <a class="org-product" role="listitem" href="https://github.com/boundwize/jsonrecast" target="_blank" rel="noopener">
+                                <span class="org-product-icon" aria-hidden="true">
+                                    <img src="/opensource-logos/jsonrecast-logo.svg" alt="">
+                                </span>
+                                <span class="org-product-body">
+                                    <strong>JsonRecast</strong>
+                                    <span>Edit JSON through an AST, traverse it with visitors, and print changes while preserving formatting.</span>
+                                </span>
+                            </a>
                         </div>
                     </div>
 
